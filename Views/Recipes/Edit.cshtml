@@ -1,0 +1,101 @@
+﻿@model Recipes.Models.RecipeViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit recipe</h1>
+
+<hr />
+<div class="container">
+    <form asp-action="Edit" class="row">
+        
+            <div class="col">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+            <div class="form-floating mb-3">
+                <input asp-for="Title" type="text" class="form-control" id="floatingInput" placeholder="Title">
+                <label asp-for="Title" for="floatingInput">Title</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Category" type="text" class="form-control" id="floatingInput" placeholder="Category">
+                <label asp-for="Category" for="floatingInput">Category</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="CreatedDate" type="text" class="form-control" id="floatingInput" placeholder="CreatedDate">
+                <label asp-for="CreatedDate" for="floatingInput">Created Date</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Complexity" type="text" class="form-control" id="floatingInput" placeholder="Complexity">
+                <label asp-for="Complexity" for="floatingInput">Complexity</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="PreparationTime" type="text" class="form-control" id="floatingInput" placeholder="PreparationTime">
+                <label asp-for="PreparationTime" for="floatingInput">Preparation Time</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="ImageUrl" type="text" class="form-control" id="floatingInput" placeholder="ImageUrl">
+                <label asp-for="ImageUrl" for="floatingInput">Image Url</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary btn-lg" />
+            </div>
+            
+             
+            </div>
+        <div class="col">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <!-- Rest of the form elements for recipe properties -->
+        </div>
+
+        <div class="col">
+            <div id="recipe-steps-container">
+                <!-- Display existing recipe steps -->
+                @for (var i = 0; i < Model.RecipeSteps.Count; i++)
+                {
+                    @Html.EditorFor(model => model.RecipeSteps[i])
+                }
+            </div>
+
+            <div class="form-group">
+                <button type="button" id="add-step-btn" class="btn btn-primary">Add Step</button>
+            </div>
+            
+        </div>
+        
+        
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Counter to keep track of the number of added recipe steps
+            var stepCounter = @Model.RecipeSteps.Count;
+
+            // Add new recipe step dynamically
+            $("#add-step-btn").click(function () {
+                var template = '<div class="form-group">' +
+                    '<label for="RecipeSteps[' + stepCounter + '].Description" class="control-label">Step ' + (stepCounter + 1) + '</label>' +
+                    '<input type="text" name="RecipeSteps[' + stepCounter + '].Description" class="form-control" />' +
+                    '<span class="text-danger" data-valmsg-for="RecipeSteps[' + stepCounter + '].Description"></span>' +
+                    '<button type="button" class="btn btn-outline-danger btn-sm">Remove</button>' +
+                    '</div>';
+
+                $("#recipe-steps-container").append(template);
+
+                stepCounter++;
+            });
+            
+            // Remove recipe step dynamically using event delegation
+            $(document).on("click", ".btn-outline-danger", function () {
+                $(this).closest(".form-group").remove();
+            });
+        });
+    </script>
+}
