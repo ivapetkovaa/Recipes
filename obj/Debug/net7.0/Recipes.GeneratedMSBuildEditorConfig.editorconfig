@@ -16,54 +16,54 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\Source\Repos\Recipes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Home/Index.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Recipes/Create.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Recipes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Recipes/Delete.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Recipes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Recipes/Details.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Recipes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Recipes/Edit.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Recipes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Recipes/Index.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Recipes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Shared/EditorTemplates/RecipeStep.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Shared/EditorTemplates/RecipeStep.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xSZWNpcGVTdGVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Shared/Error.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Shared/_RecipeStep.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Shared/_RecipeStep.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWNpcGVTdGVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/_ViewImports.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/_ViewStart.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Source/Repos/Recipes/Views/Shared/_Layout.cshtml]
+[C:/Users/user/source/repos/Recipes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lr5g8zrae
